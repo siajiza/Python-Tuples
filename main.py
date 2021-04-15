@@ -33,6 +33,9 @@ print(sub_heading)
 print(content)
 print(status)
 
+# id on a server
+print(id(post))
+
 
 
 
