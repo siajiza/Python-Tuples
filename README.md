@@ -19,7 +19,7 @@ title, sub_heading, content = post
     sub_heading = post[1]
     content = post[2]
 
-#Results
+# Results
     print(title)
     print(sub_heading)
     print(content)
@@ -41,18 +41,20 @@ title, sub_heading, content = post
 
 # List Nested in Tuples
 
-post += (
-    [
-    'one: ["tuple_01", "tuple_02"]',
-    'two: ["tuple_03", "tuple_04"]',
-    ],
-    [
-    'three: ["tuple_05", "tuple_06"]',
-    'four: ["tuple_07", "tuple_08"]',
-    ]
-)
+        post += (
+            [
+            'one: ["tuple_01", "tuple_02"]',
+            'two: ["tuple_03", "tuple_04"]',
+            ],
+            [
+            'three: ["tuple_05", "tuple_06"]',
+            'four: ["tuple_07", "tuple_08"]',
+            ]
+        )
 
-print(post)
+# Results
 
-print(post[:2])
+    print(post)
+
+    print(post[:2])
 
