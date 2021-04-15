@@ -39,4 +39,20 @@ title, sub_heading, content = post
 # id on a server
     print(id(post))
 
+# List Nested in Tuples
+
+post += (
+    [
+    'one: ["tuple_01", "tuple_02"]',
+    'two: ["tuple_03", "tuple_04"]',
+    ],
+    [
+    'three: ["tuple_05", "tuple_06"]',
+    'four: ["tuple_07", "tuple_08"]',
+    ]
+)
+
+print(post)
+
+print(post[:2])
 
